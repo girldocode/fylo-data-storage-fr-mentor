@@ -1,0 +1,105 @@
+@media screen and (max-width: 920px) {
+    body {
+        background-image: url("/images/bg-mobile.png");
+        background-size: cover;
+        background-position: top;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Fylo {
+        width: 90%;
+        padding: 30px;
+        border-top-right-radius: 100px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin: 20px 0;
+    }
+
+    .Fylo>img {
+        width: 80px;
+        margin-bottom: 15px;
+    }
+
+    .icons {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .icons>img {
+        margin: 10px 0;
+    }
+
+    .bar {
+        width: 90%;
+        margin-top: 20px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .sec2 p {
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .sec2 span {
+        font-size: 15px;
+    }
+
+    /* .line,
+    .color {
+        width: 100%;
+    } */
+    .color {
+        width: 60%;
+    }
+
+    .line {
+        background-color: var(--Very-Dark-Blue);
+        border-radius: 50px;
+        width: 200px;
+    }
+
+    .box {
+        position: absolute;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin-top: 30px;
+        /* margin-bottom: 20px;
+        width: 20%; */
+        margin-left: 20px;
+    }
+
+    .box h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .box h2 span {
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+
+    .box::after {
+        display: none;
+    }
+
+    .thousand,
+    .zero {
+        margin: 5px 0;
+    }
+}
